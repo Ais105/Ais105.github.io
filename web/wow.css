@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans:ital,wght@1,600&display=swap');
+
+body, html{
+  margin: 0;
+  width: auto;
+}
+
+body{
+  height: 100%;
+  background-image: url(https://i.artfile.ru/1920x1080_831025_[www.ArtFile.ru].jpg);
+}
+
+.navmenu {
+  height: auto;
+  padding: 80px 0 0 0;
+  background: transparent;
+  border-bottom: 10px;
+  overflow: hidden;
+}
+
+.navmenu li {
+  list-style: none;
+  float: left;
+  margin-left: -10px;
+  margin-right: 20px;
+  margin-bottom: 15px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 18px;
+
+}
+
+.navmenu li a {
+  display: block; /* Изменение отображения на блочное для того чтобы иметь возможность задать внутренние отступы. */
+  padding: 10px 15px;  /* Внутри блочные отступы. */
+  color: rgba(221, 221, 221, 0.8); /* Цвет текста в блоках меню. */
+  border: 1.5px solid white;
+  border-radius: 8px;
+  text-decoration: none; /* Устранение подчёркивания ссылок. */
+  position: relative;
+}
+
+.navmenu li a:hover {
+  background: rgba(93, 130, 181, 1);
+}
+
+
+.mainp {
+  margin-top: 0;
+  height: 500px;
+  background: transparent;
+}
+
+.mainp header{
+  display: inline-block;
+  float: left;
+  padding: 80px 0 60px 38%;
+  font-family: 'Amatic SC', cursive;
+  font-size: 54px;
+  color: rgb(153, 139, 164);
+  overflow: hidden;
+}
+
+.mainp p{
+display: inline-block;
+float: right;
+
+
+}
+
+.mainp img{
+  height: 300px;
+  width: 420px;
+  float: right;
+  padding-right:40px;
+
+}
