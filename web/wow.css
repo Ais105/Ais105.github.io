@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Josefin+Sans:ital,wght@1,600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,600&family=Piazzolla:ital,wght@1,200&display=swap');
 
 body, html{
   margin: 0;
@@ -6,13 +6,13 @@ body, html{
 }
 
 body{
-  height: 100%;
+  height: 1080px;
   background-image: url(https://i.artfile.ru/1920x1080_831025_[www.ArtFile.ru].jpg);
 }
 
 .navmenu {
   height: auto;
-  padding: 80px 0 0 0;
+  padding: 90px 0 0 0;
   background: transparent;
   border-bottom: 10px;
   overflow: hidden;
@@ -53,24 +53,30 @@ body{
 .mainp header{
   display: inline-block;
   float: left;
-  padding: 80px 0 60px 38%;
-  font-family: 'Amatic SC', cursive;
-  font-size: 54px;
-  color: rgb(153, 139, 164);
+  padding: 100px 0 40px 35%;
+  font-family: 'Piazzolla', serif;
+  font-size: 44px;
+  color: rgb(198, 188, 207);
   overflow: hidden;
 }
 
-.mainp p{
+.words{
 display: inline-block;
-float: right;
-
-
+float: left;
+padding-left: 50px;
+font-family: 'Piazzolla', serif;
+font-size: 24px;
+color: rgba(224, 224, 224, 1);
+white-space: pre-line;
 }
 
-.mainp img{
-  height: 300px;
-  width: 420px;
+
+.pik_ded{
+  max-width: 35%;
   float: right;
-  padding-right:40px;
+  padding-top: 0;
+  padding-top: 40px;
+  padding-right:50px;
+  padding-left: 15px;
 
 }
