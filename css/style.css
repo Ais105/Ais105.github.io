@@ -6,9 +6,12 @@ body, html{
 }
 
 body{
-  height: 100% ;
-  background-image: url(https://i.artfile.ru/1920x1080_831025_[www.ArtFile.ru].jpg) no-repeat;
-  background-repeat: round;
+  background-image: url(https://i.artfile.ru/1920x1080_831025_[www.ArtFile.ru].jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
 }
 
 .navmenu {
